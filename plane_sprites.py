@@ -72,9 +72,9 @@ class Enemy(GameSprite):
             # kill方法可以将精灵从所有精灵组中移出，精灵就会被自动销毁
             self.kill()
 
-    def __del__(self):
-        # print("敌机挂了 %s" % self.rect)
-        pass
+    # def __del__(self):
+    #     # print("敌机挂了 %s" % self.rect)
+    #     pass
 
 
 class Hero(GameSprite):
